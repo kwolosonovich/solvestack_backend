@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2389c1e-587e-4565-8908-789c78c9e20a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="0436e93d-72c8-403b-a8f9-76841da26e8b" />
+  <component name="ProjectId" id="1kd6P2TAYzuEyMkC3WqhT6JCbuv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bash_scripts/stop_backend.sh" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bash_scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/requirements/bash_scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Shell Script.Start Backend">
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="2. Build Backend App" type="ShConfigurationType" />
+      <toRun name="1. Build Backend Containers" type="docker-deploy" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solvestack_backend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="solvestack_backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2. Build Backend App" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/bash_scripts/build_backend.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Backend" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/bash_scripts/start_backend.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Stop Backend" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/bash_scripts/stop_backend.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1. Build Backend Containers" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.solvestack_backend" />
+      <item itemvalue="Docker.1. Build Backend Containers" />
+      <item itemvalue="Shell Script.Start Backend" />
+      <item itemvalue="Shell Script.Stop Backend" />
+      <item itemvalue="Shell Script.2. Build Backend App" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2389c1e-587e-4565-8908-789c78c9e20a" name="Default Changelist" comment="" />
+      <created>1606018093896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606018093896</updated>
+      <workItem from="1606018094929" duration="3972000" />
+      <workItem from="1606262828890" duration="1522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="615" y="1430" width="681" height="333" key="#Notifications" timestamp="1606018497199">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="615" y="1430" width="681" height="333" key="#Notifications/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1606018497199" />
+    <state x="686" y="1080" width="1095" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606020356309">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="626" y="122" width="1084" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606018275417" />
+    <state x="686" y="1080" width="1095" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1606020356309" />
+    <state x="0" y="1694" width="535" height="234" key="DockerComposeFileDialog" timestamp="1606018848775">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="797" y="417" width="309" height="218" key="DockerComposeFileDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606018229514" />
+    <state x="0" y="1694" width="535" height="234" key="DockerComposeFileDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1606018848775" />
+    <state x="735" y="1364" width="426" height="478" key="FileChooserDialogImpl" timestamp="1606020353726">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="735" y="284" width="426" height="478" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606018228018" />
+    <state x="735" y="1364" width="426" height="478" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1606020353726" />
+  </component>
+</project>
